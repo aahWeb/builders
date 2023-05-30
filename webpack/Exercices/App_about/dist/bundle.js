@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("message").innerHTML="Hello ecole Multimédia"})();

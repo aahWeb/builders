@@ -132,4 +132,21 @@ On installe les dépendances suivantes pour Webpack
 npm install css-loader style-loader 
 
 ```
-Si on souhaite maintenant 
+
+## Build 
+
+La recette pour builder l'application pour la mise en production, on n'utilise plus de server de tests, ajoutez dans la partie script le code la clé/valeur build suivante : 
+
+```json
+"scripts": {
+"start": "webpack serve --config ./webpack.config.js --mode development",
+"build": "webpack --config ./webpack.prod.js --mode production"
+},
+```
+
+Ajoutez également les dépendances suivantes, sans oublier d'ajouter dans le fichier index.html le link vers les styles
+
+```bash
+npm install mini-css-extract-plugin --save-dev
+npm install sass-loader sass
+```
