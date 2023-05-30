@@ -26,3 +26,9 @@ Un script JS qui affiche votre nom dans le DOM
 npm install webpack webpack-dev-server webpack-cli --save-dev 
 
 ```
+
+On modifie le fichier package.json pour créer une commande pour exécuter la commande webpack permettant de faire le build.
+
+```bash
+npm run start
+```
