@@ -1,3 +1,5 @@
+const utils = require('./utils')
+
 let container = document.getElementById("message");
 
-container.innerHTML = "Bonjour tout le monde"
+container.innerHTML = utils.hello()
