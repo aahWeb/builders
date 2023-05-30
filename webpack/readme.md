@@ -122,3 +122,14 @@ Dans le fichier package.json on précise le type de import/export utilisé en aj
 ```json
 "type": "module"
 ```
+
+## CSS 
+
+On installe les dépendances suivantes pour Webpack
+
+```bash
+
+npm install css-loader style-loader 
+
+```
+
