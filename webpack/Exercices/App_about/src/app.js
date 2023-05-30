@@ -1,5 +1,5 @@
-const utils = require('./utils')
+import { hello } from "./utils.js"
 
 let container = document.getElementById("message");
 
-container.innerHTML = utils.hello()
+container.innerHTML = hello()

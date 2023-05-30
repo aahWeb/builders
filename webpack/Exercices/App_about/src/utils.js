@@ -1,6 +1,5 @@
- function hello(){
+ export function hello(){
 
     return "Hello ecole Multimédia"
 }
 
-exports.hello = hello ;

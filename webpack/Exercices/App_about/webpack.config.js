@@ -1,6 +1,10 @@
-const path = require("path");
+import path from "path"
 
-module.exports = {
+import * as url from 'url';
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
+
+export default {
   entry: path.resolve(__dirname, "./src/app.js"),
 
   module:{

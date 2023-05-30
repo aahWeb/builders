@@ -104,3 +104,21 @@ module.exports = {
 }
 
 ```
+
+On précise à Babel les versions modernes de JS, au mimina ES6 
+
+Dans le fichier .babelrc créé à la racine de votre projet vous précisez la syntaxe JS souhaitée :
+
+```json
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
+```
+
+Dans le fichier package.json on précise le type de import/export utilisé en ajoutant la clé/valeur suivante :
+
+```json
+"type": "module"
+```
