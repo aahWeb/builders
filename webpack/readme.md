@@ -132,4 +132,4 @@ On installe les dépendances suivantes pour Webpack
 npm install css-loader style-loader 
 
 ```
-
+Si on souhaite maintenant 
