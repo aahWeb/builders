@@ -21,3 +21,8 @@ npm run test
 Un script JS qui affiche votre nom dans le DOM 
 
 4. Installez les dépendances
+
+```bash
+npm install webpack webpack-dev-server webpack-cli --save-dev 
+
+```
